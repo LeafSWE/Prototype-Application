@@ -27,5 +27,6 @@
 
     <string name="pref_title_indicazioni_sonore">Aiuto sonoro</string>
     <string name="pref_indicazioni_sonore">Se ti allontani troppo dal percorso consigliato, un suono ti avviserà</string>
+    <string name="title_activity_user__preferences">User_Preferences</string>
 
 </resources>
