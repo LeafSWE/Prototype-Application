@@ -1,6 +1,5 @@
-package com.example.andrea.myapplication;
+package com.clips.view.activity;
 
-import android.preference.PreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 

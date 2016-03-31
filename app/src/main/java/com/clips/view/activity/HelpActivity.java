@@ -1,4 +1,4 @@
-package com.example.andrea.myapplication;
+package com.clips.view.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,7 +13,7 @@ public class HelpActivity extends AppCompatActivity {
         setContentView(R.layout.activity_help);
 
         String url = "http://leafswe.github.io/index.html";
-        WebView webView = (WebView)findViewById(R.id.helpView);
+        WebView webView = (WebView) findViewById(R.id.helpView);
         webView.getSettings().setDefaultFontSize(16);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl(url);

@@ -1,9 +1,8 @@
-package com.example.andrea.myapplication;
+package com.clips.view.activity;
 
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.speech.RecognizerIntent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -15,12 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.SearchView;
-import android.widget.Toast;
-
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -54,7 +48,7 @@ public class MainActivity extends AppCompatActivity
         SearchView searchView = (SearchView) findViewById(R.id.searchView);
         int searchPlateId = searchView.getContext().getResources().getIdentifier("android:id/search_plate", null, null);
         View searchPlate = searchView.findViewById(searchPlateId);
-        if (searchPlate!=null) {
+        if (searchPlate != null) {
             searchPlate.setBackgroundColor(Color.WHITE);
 
         }
@@ -101,11 +95,11 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.nav_preferences) {
             //handle preferences action
-            Intent intent = new Intent(this,PrefActivity.class);
+            Intent intent = new Intent(this, PrefActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_help) {
             //handle help action
-            Intent intent = new Intent(this,HelpActivity.class);
+            Intent intent = new Intent(this, HelpActivity.class);
             startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

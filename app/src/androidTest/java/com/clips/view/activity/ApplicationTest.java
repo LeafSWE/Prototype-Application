@@ -1,4 +1,4 @@
-package com.example.andrea.myapplication;
+package com.clips.view.activity;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
