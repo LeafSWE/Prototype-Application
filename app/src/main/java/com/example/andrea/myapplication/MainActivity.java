@@ -97,20 +97,17 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_maps) {
             //handle maps action
+            Intent intent = new Intent(this, MapManager.class);
+            startActivity(intent);
         } else if (id == R.id.nav_preferences) {
             //handle preferences action
             Intent intent = new Intent(this,PrefActivity.class);
             startActivity(intent);
-
         } else if (id == R.id.nav_help) {
             //handle help action
             Intent intent = new Intent(this,HelpActivity.class);
             startActivity(intent);
-
-        } else if (id == R.id.nav_developer) {
-            //handle developer action
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

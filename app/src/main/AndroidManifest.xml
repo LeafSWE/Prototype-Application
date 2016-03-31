@@ -32,6 +32,10 @@
             android:name=".HelpActivity"
             android:label="@string/title_activity_help"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MapManager"
+            android:label="Gestione mappe"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
