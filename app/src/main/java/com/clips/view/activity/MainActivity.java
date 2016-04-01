@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         //Elimina la riga sotto il testo della searchView
-        SearchView searchView = (SearchView) findViewById(R.id.searchView);
+        SearchView searchView = (SearchView) findViewById(R.id.searchViewInsideBuilding);
         int searchPlateId = searchView.getContext().getResources().getIdentifier("android:id/search_plate", null, null);
         View searchPlate = searchView.findViewById(searchPlateId);
         if (searchPlate != null) {
