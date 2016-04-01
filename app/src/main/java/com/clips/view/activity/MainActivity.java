@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity
         View searchPlate = searchView.findViewById(searchPlateId);
         if (searchPlate != null) {
             searchPlate.setBackgroundColor(Color.WHITE);
-
         }
 
     }
